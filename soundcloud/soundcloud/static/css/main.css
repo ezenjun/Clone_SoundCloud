@@ -71,12 +71,10 @@ header{
 
 /*//// logo ////*/
 .logo{
-
     background: linear-gradient(#f70,#f30);
     display: flex;
     height: 100%;
     width: 184px;
-    
 }
 
 .logo_icon{
@@ -171,6 +169,7 @@ input[type="search"]{
     border: none; 
     width: 100%;
     height: 28px;
+    min-width: 200px;
 }
 
 .headerSearch {
@@ -214,7 +213,7 @@ input[type="search"]{
     color: #fff;
     background-color: #333;
     border: 1px solid rgb(133, 133, 133);
-    
+    min-width: 61px;
     padding: 2px 11px 2px 10px;
     margin-right: 10px;
     align-items: center;
@@ -229,6 +228,7 @@ input[type="search"]{
     padding: 2px 11px 2px 10px;
     margin-left: 10px;
     align-items: center;
+    min-width: 110px;
 }
 
 /*//// end loginMenu ////*/
@@ -289,13 +289,18 @@ input[type="search"]{
 
 .title_text{
     margin: 0;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
     line-height: 1.4;
+    font-size: 24px;
+    font-weight: 100;
 }
 
 .description{
     font-size: 14px;
-    line-height: 1.4;
-    color:#333;
+    font-weight: 100;
+    color: #999;
+    margin-top: 5px;
+    margin-bottom: 24px;
 }
 
 /*//// gallery ////*/
